@@ -1,8 +1,10 @@
-# 🐈 PetPal 🐾
+<div align="center">
+  <h1>🐾 PetPal 🐈</h1>
 
-@@@@@@@@@@이미지 크게 넣기
+  @@@@@@@@@@이미지 크게 넣기
 
-### @@@@@@@@@@펫팔 한줄로 pr
+  <h3>펫팔 한줄로 pr</h3>
+</div>
 
 <br/>
 
@@ -75,11 +77,11 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 <br/>
 <br/>
 
-## 5. 기술 및 개발 환경
+## 5. 기술 스택 및 개발 환경
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
 | 구분 |  |
 | :---: | --- |
-| **기술 스택** | React, Recoil, Axios, styled-components, JavaScript |
+| **사용 기술** | React, Recoil, Axios, styled-components, JavaScript |
 | **컨벤션** | ESLint, Prettier |
 | **협업** | Git, GitHub, Notion, Discord, Figma |
 | **IDE** | VSCode |
