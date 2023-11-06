@@ -1,5 +1,7 @@
 # 🐩 PetPal 🐈
 
+!!!!!!!!!!!!이미지 크게 넣기
+
 ### ~~~~~~~~~어쩌고 (펫팔 짧게pr)
 
 #### 배포 링크 및 테스트 계정
@@ -17,7 +19,7 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 
 ## 2. 팀원 소개
 | 김소리 | 류경민 | 최지완 | 최현아 |
-| :------------: | :------------: | :------------: | :------------: |
+| :---: | :---: | :---: | :---: |
 | 이미지 | 이미지 | 이미지 | 이미지 |
 | [🔗 sorikikikim](https://github.com/sorikikikim) | [🔗 kmryuuu](https://github.com/kmryuuu)  | [🔗 jiwanchoi](https://github.com/jiwanchoi)   | [🔗 hhyunn](https://github.com/hhyunn)  |
 
@@ -46,9 +48,9 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 ## 5. 기술 및 개발 환경
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
 - 기술 스택: React, Recoil, Axios, styled-components, JavaScript  
-- 컨벤션: eslint, prettier  
-- 협업: Git, Github, Notion, Discord, Figma  
-- IDE: VScode
+- 컨벤션: ESLint, Prettier  
+- 협업: Git, GitHub, Notion, Discord, Figma  
+- IDE: VSCode
 
 <br/>
 
@@ -129,30 +131,47 @@ petpal-frontend                # git 저장소 # 여기서 git 작업을 해야�
 
 <br/><br/>
 
-## 8. 주요 기능 소개
-- 홈
-    - 시작 화면 (스플래시)
-    - 회원가입 페이지
-    - 로그인 페이지
-    - 홈 페이지
-    - 검색 페이지
-- 피드
-    - 피드 페이지
-- 게시물
-    - 게시물 목록 페이지
-    - 게시물 상세 페이지
-    - 게시물 작성 페이지
-    - 게시물 수정 페이지
-    - 게시물 삭제
-    - (산책, 돌보미) 좋아요, 댓글 기능
-    - (산책, 돌보미) 댓글 신고
-- 채팅
-    - 채팅 목록, 채팅방 페이지
-- 프로필
-    - 프로필 페이지
-    - 프로필 수정 페이지
-    - 팔로워/팔로잉 페이지
-    - 로그아웃 기능
+## 8. 주요 기능
+### 1) 홈
+| 스플래시 페이지 | 회원가입 페이지 | 로그인 페이지 |
+| :---: | :---: | :---: |
+| gif | gif | gif |
+
+| 홈 페이지 | 검색 페이지 |
+| :---: | :---: |
+| gif | gif |
+
+### 2) 피드
+| 피드 페이지 |
+| :---: |
+| gif |
+    
+### 3) 게시물
+| 게시물 목록 페이지 | 게시물 상세 페이지 | 게시물 작성 페이지 |
+| :---: | :---: | :---: |
+| gif | gif | gif |
+
+| 게시물 수정 페이지 | 게시물, 댓글 삭제 | 좋아요, 댓글 기능 |
+| :---: | :---: | :---: |
+| gif | gif | gif |
+
+| 댓글 신고 |
+| :---: |
+| gif |
+
+### 4) 채팅
+| 채팅 목록 페이지 | 채팅방 페이지 |
+| :---: | :---: |
+| gif | gif |
+
+### 5) 프로필
+| 프로필 페이지 | 프로필 수정 페이지 | 팔로워/팔로잉 페이지 |
+| :---: | :---: | :---: |
+| gif | gif | gif |
+
+| 로그아웃 기능 |
+| :---: |
+| gif |
 
 <br/><br/>
 
