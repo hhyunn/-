@@ -44,17 +44,20 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 <br/><br/>
 
 ## 5. 기술 및 개발 환경
-기술 스택: React, Recoil, Axios, styled-components, JavaScript  
-컨벤션: eslint, prettier  
-협업: Git, Github, Notion, Discord, Figma  
-IDE: VScode
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
+- 기술 스택: React, Recoil, Axios, styled-components, JavaScript  
+- 컨벤션: eslint, prettier  
+- 협업: Git, Github, Notion, Discord, Figma  
+- IDE: VScode
 
 <br/>
 
 ### 라이브러리 사용 이유
-    - Recoil: 간편한 전역 상태 관리와 접근을 위해 사용했습니다.
-    - Axios: 간편한 HTTP 요청을 위해 사용했습니다.
-    - styled-components: 스타일 캡슐화로 코드의 가독성과 유지보수 향상을 위해 사용했습니다.
+- Recoil: 간편한 전역 상태 관리와 접근을 위해 사용했습니다.  
+- Axios: 간편한 HTTP 요청을 위해 사용했습니다.  
+- styled-components: 스타일 캡슐화로 코드의 가독성과 유지보수 향상을 위해 사용했습니다.
+
+<br/>
 
 ### 컨벤션
 #### eslint
@@ -104,16 +107,16 @@ IDE: VScode
 
 ## 6. 폴더 구조
 ```
-petpal-frontend    # git 저장소 # 여기서 git 작업을 해야합니다.  
-├── petpal                # react 프로젝트 # 여기서 npm start를 해야합니다.  
+petpal-frontend                # git 저장소 # 여기서 git 작업을 해야합니다.  
+├── petpal                     # react 프로젝트 # 여기서 npm start를 해야합니다.  
     ├── node_modules/          # 의존성 모듈  
     ├── public/                # 정적 파일 (index.html, 이미지 등)  
-        ├── images/             # image 파일  
+        ├── images/            # image 파일  
     ├── src/                   # 소스 코드  
-    │    ├── components/      # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)  
-    │    ├── pages/           # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)  
-    │    ├── App.js           # 루트 앱 컴포넌트  
-    │    ├── index.js         # 앱 진입점  
+    │    ├── components/       # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)  
+    │    ├── pages/            # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)  
+    │    ├── App.js            # 루트 앱 컴포넌트  
+    │    ├── index.js          # 앱 진입점  
     ├── package.json           # 프로젝트 설정 및 의존성  
     ├── package-lock.json      # 의존성 버전 잠금  
     ├── README.md              # 프로젝트 문서  
@@ -177,6 +180,8 @@ petpal-frontend    # git 저장소 # 여기서 git 작업을 해야합니다.
 
 ## 11. 리팩토링 목표
 - 목표1
+
+<br/><br/>
 
 ## 12. 프로젝트 관련 문서
 #### 👉 [Notion](https://www.notion.so/1-6beb92665ec04f3d87bc385de664104f)
