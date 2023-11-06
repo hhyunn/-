@@ -1,1 +1,161 @@
-# -
+# 🐩 PetPal 🐈
+
+### ~~~~~~~~~어쩌고 (펫팔 짧게pr)
+
+#### 배포 링크 및 테스트 계정
+```
+링크: ~~~~~~~~~~~~~~~~~~
+ID: petpal@gmail.com
+PW: 123123
+```
+
+## 1. 서비스 소개
+PetPal은 반려동물 물품 거래, 산책 메이트, 돌보미 서비스를 위한 SNS 플랫폼입니다.  
+PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
+
+<br/><br/>
+
+## 2. 팀원 소개
+| 김소리 | 류경민 | 최지완 | 최현아 |
+| :------------: | :------------: | :------------: | :------------: |
+| 이미지 | 이미지 | 이미지 | 이미지 |
+| [🔗 sorikikikim](https://github.com/sorikikikim) | [🔗 kmryuuu](https://github.com/kmryuuu)  | [🔗 jiwanchoi](https://github.com/jiwanchoi)   | [🔗 hhyunn](https://github.com/hhyunn)  |
+
+<br/><br/>
+
+## 3. 역할 분담
+- 공통
+- 팀원별
+    - 디자인
+    - 화면 개발
+    - 기능 개발
+    - 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
+
+<br/><br/>
+
+## 4. 개발 일정
+2023.10.12 ~ 2023.10.19 프로젝트 기획 및 디자인
+2023.10.17 ~ 2023.10.18 프로젝트 기초 세팅
+2023.10.19 ~ 2023.10.29 페이지 마크업
+2023.10.30 ~ 2023.11.05 기능 구현
+2023.11.06 ~ 리팩토링
+(날짜 대충 써둠)
+
+<br/><br/>
+
+## 5. 기술 및 개발 환경
+기술 스택: React, Recoil, Axios, styled-components, JavaScript
+컨벤션: eslint, prettier
+협업: Git, Github, Notion, Discord, Figma
+IDE: VScode
+-> API 명세 바로가기 (링크)
+
+- 라이브러리 사용 이유
+    - Recoil: 간편한 전역 상태 관리와 접근을 위해 사용했습니다.
+    - Axios: 간편한 HTTP 요청을 위해 사용했습니다.
+    - styled-components: 스타일 캡슐화로 코드의 가독성과 유지보수 향상을 위해 사용했습니다.
+
+- 컨벤션
+    - eslint
+{
+  "extends": ["react-app", "prettier"],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-var": "error",
+    "require-await": "error",
+    "eqeqeq": "warn",
+    "react/prop-types": 0,
+    "no-unused-vars": "off"
+  }
+}
+
+    - prettier
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "endOfLine": "auto"
+}
+
+    - 커밋 컨벤션
+✨ Feat: 기능 추가, 삭제, 변경
+🐛 Fix: 버그, 오류 수정
+📝 Docs: readme.md, json 파일 등 수정, 라이브러리 설치 (문서 관련, 코드 수정 없음)
+🎨 Style: CSS 등 사용자 UI 디자인 변경 (제품 코드 수정 발생, 코드 형식, 정렬 등의 변경)
+♻️ Refactor: 코드 리팩토링
+🧪 Test: 테스트 코드 추가, 삭제, 변경 등 (코드 수정 없음, 테스트 코드에 관련된 모든 변경에 해당)
+⚙️ Config: npm 모듈 설치 등
+🌱 Chore: 패키지 매니저 설정할 경우, etc 등 (ex. gitignore)
+💬 Comment: 필요한 주석 추가 및 변경
+🚚 Rename: 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우
+🚚 Remove: 파일을 삭제하는 작업만 수행한 경우
+
+<br/><br/>
+
+## 6. 프로젝트 폴더 구조
+```
+petpal-frontend    # git 저장소 # 여기서 git 작업을 해야합니다.  
+├── petpal                # react 프로젝트 # 여기서 npm start를 해야합니다.  
+	  ├── node_modules/          # 의존성 모듈  
+	  ├── public/                # 정적 파일 (index.html, 이미지 등)  
+				  ├── images/             # image 파일  
+	  ├── src/                   # 소스 코드  
+	  │     ├── components/      # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)  
+	  │     ├── pages/           # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)  
+	  │     ├── App.js           # 루트 앱 컴포넌트  
+	  │     ├── index.js         # 앱 진입점  
+	  ├── package.json           # 프로젝트 설정 및 의존성  
+	  ├── package-lock.json      # 의존성 버전 잠금  
+	  ├── README.md              # 프로젝트 문서  
+	  ├── .gitignore             # Git으로 추적하지 않을 파일/폴더 목록
+```
+
+<br/><br/>
+
+## 7. Git Branch 전략 - Github Flow
+
+<br/><br/>
+
+## 8. 주요 기능 소개
+- 홈
+    - 시작 화면 (스플래시)
+    - 회원가입 페이지
+    - 로그인 페이지
+    - 홈 페이지
+    - 검색 페이지
+- 피드
+    - 피드 페이지
+- 게시물
+    - 게시물 목록 페이지
+    - 게시물 상세 페이지
+    - 게시물 작성 페이지
+    - 게시물 수정 페이지
+    - 게시물 삭제
+    - (산책, 돌보미) 좋아요, 댓글 기능
+    - (산책, 돌보미) 댓글 신고
+- 채팅
+    - 채팅 목록, 채팅방 페이지
+- 프로필
+    - 프로필 페이지
+    - 프로필 수정 페이지
+    - 팔로워/팔로잉 페이지
+    - 로그아웃 기능
+
+<br/><br/>
+
+## 9. 핵심 코드
+
+<br/><br/>
+
+## 10. 트러블 슈팅
+
+<br/><br/>
+
+## 11. 리팩토링 목표
+
+<br/><br/>
+
+## 12. 느낀 점
