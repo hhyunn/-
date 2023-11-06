@@ -35,11 +35,30 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 
 ## 3. 역할 분담
 ### 공통
-### 팀원별
 - 디자인
+  - 상세 설명
 - 화면 개발
+  - 상세 설명
 - 기능 개발
+  - 상세 설명
 - 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
+  - 상세 설명
+
+<br/>
+
+### 김소리
+
+<br/>
+
+### 류경민
+
+<br/>
+
+### 최지완
+
+<br/>
+
+### 최현아
 
 <br/>
 <br/>
@@ -58,10 +77,12 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 
 ## 5. 기술 및 개발 환경
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
-- 기술 스택: React, Recoil, Axios, styled-components, JavaScript  
-- 컨벤션: ESLint, Prettier  
-- 협업: Git, GitHub, Notion, Discord, Figma  
-- IDE: VSCode
+| 구분 |  |
+| :---: | --- |
+| **기술 스택** | React, Recoil, Axios, styled-components, JavaScript |
+| **컨벤션** | ESLint, Prettier |
+| **협업** | Git, GitHub, Notion, Discord, Figma |
+| **IDE** | VSCode |
 
 <br/>
 
