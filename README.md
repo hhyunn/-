@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>🐾 PetPal 🐈</h1>
+  <h1>PetPal 🐾</h1>
 
-  @@@@@@@@@@이미지 크게 넣기
+  <img src="https://github.com/Petpal-frontend/petpal-frontend/blob/main/src/assets/image/tajaCat.gif" />
 
   <h3>펫팔 한줄로 pr</h3>
 </div>
@@ -29,22 +29,26 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 ## 2. 팀원 소개
 | 김소리 | 류경민 | 최지완 | 최현아 |
 | :---: | :---: | :---: | :---: |
-| 이미지 | 이미지 | 이미지 | 이미지 |
+| <img src="https://github.com/Petpal-frontend/petpal-frontend/blob/main/src/assets/image/tajaCat.gif" /> | <img src="https://github.com/Petpal-frontend/petpal-frontend/blob/main/src/assets/image/tajaCat.gif" /> | <img src="https://github.com/Petpal-frontend/petpal-frontend/blob/main/src/assets/image/tajaCat.gif" /> | <img src="https://github.com/Petpal-frontend/petpal-frontend/blob/main/src/assets/image/tajaCat.gif" /> |
 | [🔗 sorikikikim](https://github.com/sorikikikim) | [🔗 kmryuuu](https://github.com/kmryuuu)  | [🔗 jiwanchoi](https://github.com/jiwanchoi)   | [🔗 hhyunn](https://github.com/hhyunn)  |
+| 담당 | 담당 | 담당 | 담당 |
 
 <br/>
 <br/>
 
 ## 3. 역할 분담
 ### 공통
-- 디자인
-  - 상세 설명
-- 화면 개발
-  - 상세 설명
-- 기능 개발
-  - 상세 설명
-- 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
-  - 상세 설명
+디자인
+  - 설명
+
+화면 개발
+  - 설명
+
+기능 개발
+  - 설명
+
+기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
+  - 설명
 
 <br/>
 
@@ -81,7 +85,8 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
 | 구분 |  |
 | :---: | --- |
-| **사용 기술** | React, Recoil, Axios, styled-components, JavaScript |
+| **프론트엔드** | React, Recoil, Axios, styled-components, JavaScript |
+| **백엔드** | 제공된 API 사용 |
 | **컨벤션** | ESLint, Prettier |
 | **협업** | Git, GitHub, Notion, Discord, Figma |
 | **IDE** | VSCode |
