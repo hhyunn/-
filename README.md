@@ -24,39 +24,41 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 <br/><br/>
 
 ## 3. 역할 분담
-- 공통
-- 팀원별
-    - 디자인
-    - 화면 개발
-    - 기능 개발
-    - 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
+### 공통
+### 팀원별
+- 디자인
+- 화면 개발
+- 기능 개발
+- 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
 
 <br/><br/>
 
 ## 4. 개발 일정
-2023.10.12 ~ 2023.10.19 프로젝트 기획 및 디자인
-2023.10.17 ~ 2023.10.18 프로젝트 기초 세팅
-2023.10.19 ~ 2023.10.29 페이지 마크업
-2023.10.30 ~ 2023.11.05 기능 구현
-2023.11.06 ~ 리팩토링
+2023.10.12 ~ 2023.10.19 프로젝트 기획 및 디자인  
+2023.10.17 ~ 2023.10.18 프로젝트 기초 세팅  
+2023.10.19 ~ 2023.10.29 페이지 마크업  
+2023.10.30 ~ 2023.11.05 기능 구현  
+2023.11.06 ~ 리팩토링  
 (날짜 대충 써둠)
 
 <br/><br/>
 
 ## 5. 기술 및 개발 환경
-기술 스택: React, Recoil, Axios, styled-components, JavaScript
-컨벤션: eslint, prettier
-협업: Git, Github, Notion, Discord, Figma
+기술 스택: React, Recoil, Axios, styled-components, JavaScript  
+컨벤션: eslint, prettier  
+협업: Git, Github, Notion, Discord, Figma  
 IDE: VScode
--> API 명세 바로가기 (링크)
 
-- 라이브러리 사용 이유
+<br/>
+
+### 라이브러리 사용 이유
     - Recoil: 간편한 전역 상태 관리와 접근을 위해 사용했습니다.
     - Axios: 간편한 HTTP 요청을 위해 사용했습니다.
     - styled-components: 스타일 캡슐화로 코드의 가독성과 유지보수 향상을 위해 사용했습니다.
 
-- 컨벤션
-    - eslint
+### 컨벤션
+#### eslint
+```
 {
   "extends": ["react-app", "prettier"],
   "rules": {
@@ -68,8 +70,10 @@ IDE: VScode
     "no-unused-vars": "off"
   }
 }
+```
 
-    - prettier
+#### prettier
+```
 {
   "singleQuote": true,
   "semi": true,
@@ -79,8 +83,10 @@ IDE: VScode
   "arrowParens": "avoid",
   "endOfLine": "auto"
 }
+```
 
-    - 커밋 컨벤션
+#### 커밋 컨벤션
+```
 ✨ Feat: 기능 추가, 삭제, 변경
 🐛 Fix: 버그, 오류 수정
 📝 Docs: readme.md, json 파일 등 수정, 라이브러리 설치 (문서 관련, 코드 수정 없음)
@@ -92,25 +98,26 @@ IDE: VScode
 💬 Comment: 필요한 주석 추가 및 변경
 🚚 Rename: 파일 또는 폴더 명을 수정하거나 옮기는 작업만인 경우
 🚚 Remove: 파일을 삭제하는 작업만 수행한 경우
+```
 
 <br/><br/>
 
-## 6. 프로젝트 폴더 구조
+## 6. 폴더 구조
 ```
 petpal-frontend    # git 저장소 # 여기서 git 작업을 해야합니다.  
 ├── petpal                # react 프로젝트 # 여기서 npm start를 해야합니다.  
-	  ├── node_modules/          # 의존성 모듈  
-	  ├── public/                # 정적 파일 (index.html, 이미지 등)  
-				  ├── images/             # image 파일  
-	  ├── src/                   # 소스 코드  
-	  │     ├── components/      # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)  
-	  │     ├── pages/           # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)  
-	  │     ├── App.js           # 루트 앱 컴포넌트  
-	  │     ├── index.js         # 앱 진입점  
-	  ├── package.json           # 프로젝트 설정 및 의존성  
-	  ├── package-lock.json      # 의존성 버전 잠금  
-	  ├── README.md              # 프로젝트 문서  
-	  ├── .gitignore             # Git으로 추적하지 않을 파일/폴더 목록
+    ├── node_modules/          # 의존성 모듈  
+    ├── public/                # 정적 파일 (index.html, 이미지 등)  
+        ├── images/             # image 파일  
+    ├── src/                   # 소스 코드  
+    │    ├── components/      # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)  
+    │    ├── pages/           # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)  
+    │    ├── App.js           # 루트 앱 컴포넌트  
+    │    ├── index.js         # 앱 진입점  
+    ├── package.json           # 프로젝트 설정 및 의존성  
+    ├── package-lock.json      # 의존성 버전 잠금  
+    ├── README.md              # 프로젝트 문서  
+    ├── .gitignore             # Git으로 추적하지 않을 파일/폴더 목록
 ```
 
 <br/><br/>
@@ -147,15 +154,31 @@ petpal-frontend    # git 저장소 # 여기서 git 작업을 해야합니다.
 <br/><br/>
 
 ## 9. 핵심 코드
+<details>
+<summary>더보기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+자세한 내용은 더보기 버튼으로 가려둘 수 있음
+
+</details>
 
 <br/><br/>
 
 ## 10. 트러블 슈팅
+<details>
+<summary>더보기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
+자세한 내용은 더보기 버튼으로 가려둘 수 있음
+
+</details>
 
 <br/><br/>
 
 ## 11. 리팩토링 목표
+- 목표1
 
-<br/><br/>
-
-## 12. 느낀 점
+## 12. 프로젝트 관련 문서
+#### 👉 [Notion](https://www.notion.so/1-6beb92665ec04f3d87bc385de664104f)
+#### 👉 [기능 명세서](https://www.notion.so/44dffa0cf42348fc80a5312a5c165e6c)
+#### 👉 [Figma](https://www.figma.com/files/team/1294159315441165760)
