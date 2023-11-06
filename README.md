@@ -115,30 +115,30 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 
 ## 6. 폴더 구조
 ```
-petpal-frontend                  # git 저장소 # 여기서 git 작업을 해야합니다.  
-└── 📁 petpal                    # react 프로젝트 # 여기서 npm start를 해야합니다.  
-    ├── 📁 node_modules          # 의존성 모듈  
-    ├── 📁 public                # 정적 파일 (index.html, 이미지 등)  
+petpal-frontend                     # git 저장소 # 여기서 git 작업을 해야합니다.  
+└── 📁 petpal                       # react 프로젝트 # 여기서 npm start를 해야합니다.  
+    ├── 📁 node_modules             # 의존성 모듈  
+    ├── 📁 public                   # 정적 파일 (index.html, 이미지 등)  
     │   ├── favicon.ico
     │   └── index.html
-    ├── 📁 src                   # 소스 코드
-    │    ├── 📂 api              # Axios 인스턴스 및 API 관련 모듈 함수
-    │    ├── 📂 assets           # 폰트, 이미지 등 정적 리소스
-    │    ├── 📂 atoms            # 리코일 관련 폴더
-    │    ├── 📁 components       # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)
-    │    ├── 📁 mock             # mock 데이터 폴더
-    │    ├── 📁 pages            # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)
-    │    ├── 📁 styles           # 전역으로 적용할 css 파일들이 포함된 폴더
+    ├── 📁 src                      # 소스 코드
+    │    ├── 📂 api                 # Axios 인스턴스 및 API 관련 모듈 함수
+    │    ├── 📂 assets              # 폰트, 이미지 등 정적 리소스
+    │    ├── 📂 atoms               # 리코일 관련 폴더
+    │    ├── 📁 components          # 컴포넌트 (재사용 가능한 UI 컴포넌트가 위치하는 디렉토리)
+    │    ├── 📁 mock                # mock 데이터 폴더
+    │    ├── 📁 pages               # 페이지 컴포넌트 (컴포넌트로 구성하는 페이지)
+    │    ├── 📁 styles              # 전역으로 적용할 css 파일들이 포함된 폴더
     │    │   ├── fonts.css
     │    │   └── GlobalStyle.jsx
-    │    ├── App.js              # 루트 앱 컴포넌트  
-    │    └── index.js            # 앱 진입점  
-    ├── .eslintrc.json           # eslint 설정 파일
-    ├── .gitignore               # Git으로 추적하지 않을 파일/폴더 목록
-    ├── .prettierrc              # prettier 설정 파일
-    ├── package-lock.json        # 의존성 버전 잠금
-    ├── package.json             # 프로젝트 설정 및 의존성  
-    └── README.md                # 프로젝트 문서
+    │    ├── App.js                 # 루트 앱 컴포넌트  
+    │    └── index.js               # 앱 진입점  
+    ├── .eslintrc.json              # eslint 설정 파일
+    ├── .gitignore                  # Git으로 추적하지 않을 파일/폴더 목록
+    ├── .prettierrc                 # prettier 설정 파일
+    ├── package-lock.json           # 의존성 버전 잠금
+    ├── package.json                # 프로젝트 설정 및 의존성  
+    └── README.md                   # 프로젝트 문서
 ```
 
 <br/><br/>
