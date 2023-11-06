@@ -21,7 +21,8 @@ PW: 123123
 PetPal은 반려동물 물품 거래, 산책 메이트, 돌보미 서비스를 위한 SNS 플랫폼입니다.  
 PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 2. 팀원 소개
 | 김소리 | 류경민 | 최지완 | 최현아 |
@@ -29,7 +30,8 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 | 이미지 | 이미지 | 이미지 | 이미지 |
 | [🔗 sorikikikim](https://github.com/sorikikikim) | [🔗 kmryuuu](https://github.com/kmryuuu)  | [🔗 jiwanchoi](https://github.com/jiwanchoi)   | [🔗 hhyunn](https://github.com/hhyunn)  |
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 3. 역할 분담
 ### 공통
@@ -39,7 +41,8 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 - 기능 개발
 - 기타.. (프로젝트 총괄 및 문서화, 컴포넌트 리팩토링 및 중복 제거 등..)
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 4. 개발 일정
 2023.10.12 ~ 2023.10.19 프로젝트 기획 및 디자인  
@@ -49,7 +52,8 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 2023.11.06 ~ 리팩토링  
 (날짜 대충 써둠)
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 5. 기술 및 개발 환경
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
@@ -111,7 +115,8 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 🚚 Remove: 파일을 삭제하는 작업만 수행한 경우
 ```
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 6. 폴더 구조
 ```
@@ -141,11 +146,13 @@ petpal-frontend                     # git 저장소 # 여기서 git 작업을 �
     └── README.md                   # 프로젝트 문서
 ```
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 7. Git Branch 전략 - Github Flow
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 8. 주요 기능
 ### 1) 홈
@@ -189,7 +196,8 @@ petpal-frontend                     # git 저장소 # 여기서 git 작업을 �
 | :---: |
 | gif |
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 9. 핵심 코드
 <details>
@@ -200,7 +208,8 @@ petpal-frontend                     # git 저장소 # 여기서 git 작업을 �
 
 </details>
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 10. 트러블 슈팅
 <details>
@@ -211,12 +220,14 @@ petpal-frontend                     # git 저장소 # 여기서 git 작업을 �
 
 </details>
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 11. 리팩토링 목표
 - 목표1
 
-<br/><br/>
+<br/>
+<br/>
 
 ## 12. 프로젝트 관련 문서
 #### 👉 [Notion](https://www.notion.so/1-6beb92665ec04f3d87bc385de664104f)
