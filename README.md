@@ -85,8 +85,7 @@ PetPal에서 반려동물을 사랑하는 사람들과 소통을 해보세요!
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white" /> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" /> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=ffd35b" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />  
 | 구분 |  |
 | :---: | --- |
-| **프론트엔드** | React, Recoil, Axios, styled-components, JavaScript |
-| **백엔드** | 제공된 API 사용 |
+| **사용 기술** | 프론트엔드: React, Recoil, Axios, styled-components, JavaScript <br/> 백엔드: 제공된 API 사용  |
 | **컨벤션** | ESLint, Prettier |
 | **협업** | Git, GitHub, Notion, Discord, Figma |
 | **IDE** | VSCode |
